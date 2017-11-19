@@ -73,6 +73,13 @@ public:
   // the current NIS for laser
   double NIS_laser_;
 
+  // for laser kalman filter
+	///* measurement matrix
+	MatrixXd H_;
+
+	///* measurement covariance matrix
+	MatrixXd R_;
+
   /**
    * Constructor
    */
